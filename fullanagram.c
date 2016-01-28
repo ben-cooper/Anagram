@@ -13,7 +13,7 @@ unsigned long power(int x, int y) {
 		return 1;
 	}
 	for (int i=1; i < y; i++) {
-		result *= result;
+		result *= x;
 	}
 	return result;
 }
